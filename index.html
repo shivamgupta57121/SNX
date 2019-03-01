@@ -1,0 +1,111 @@
+<html>
+    <head>
+
+        <link rel="stylesheet" type="text/css" href="lib/css/grid.css">
+        <link rel="stylesheet" type="text/css" href="lib/css/ionicons.min.css">
+        <link rel="stylesheet" type="text/css" href="lib/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/queries.css">
+        
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css?family=Limelight" rel="stylesheet">
+        <title>
+          SocialNetworkx  
+        </title>
+    </head>
+    <body>
+        
+        <!-- <video autoplay muted loop id="myVideo">
+                    <source src=".mp4" type="video/mp4">
+        </video>  -->
+
+
+        <header class="content1">
+            <nav class="topnav-left">
+                <div class="row">
+                    <ul class="company">
+                        <li>  SocialNetworkx</li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="topnav-right">
+                <div class="login-container">
+                    <form action="/action_page.php">
+                      <input type="text" placeholder="Username" name="username" class="rad"  required>
+                      <input type="text" placeholder="Password" name="password" class="rad" required>
+                      <button type="submit">Login</button>
+                    </form>
+                </div>
+            </div>
+            
+        </header>
+
+            
+        
+            
+        <section class="section-form">
+
+            
+            <form method="post" action="#" class="contact-form">
+                    <h3>SIGN UP</h3>
+                    <br>
+                    <div class="row">
+
+                        <input type="text" name="name" id="name" placeholder="Your name" required>
+
+                    </div>
+                    <br>
+                    <div class="row">
+                        
+                        <input type="date" name="date" id="date" required  >
+
+                    </div>
+                    <br>
+                    <div class="row">
+
+                        <select name="gender" id="gender" required>
+                            <option value="Gender" selected>Gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+
+                    </div>
+                    <br>
+                    <div class="row">
+                        
+                        <input type="email" name="email" id="email" placeholder="Your email" required>
+                    
+                    </div>
+                    <br>
+                    <div class="row">
+                        
+                        <input type="password" name="password" id="password" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+                        title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+                        
+                    </div>
+                    <br>
+                    <div class="row">
+
+                        <center><button type="submit" id="submit">SIGN UP</button></center>
+                        
+                    </div>    
+
+            </form>
+
+        </section>
+        
+        
+        <footer>
+            <div class="content3">
+                <p>
+                   Terms and Conditions
+                </p>
+            </div>
+        </footer>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>

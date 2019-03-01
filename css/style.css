@@ -1,0 +1,546 @@
+/* ----------------------------------------------- */
+/* REUSABE */
+/* ----------------------------------------------- */
+
+
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+    /* color:#6666ff; */
+}
+
+/* ----------------------------------------------- */
+/* BASIC COMPONENTS */
+/* ----------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+
+h2,
+h3{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+/* ----------------------------------------------- */
+/* header */
+/* ----------------------------------------------- */
+header{
+    padding-top: 10px;
+    padding-bottom: 20px;
+   
+}
+
+
+/* company */
+.company{
+    list-style: none;
+    color: #fff;
+    font-size: 50px;
+    /* padding-top: 30px; */
+    padding-left: 20px;
+    font-family: 'Limelight', cursive;
+}
+
+/* Top nav left */
+.topnav-left{
+    float: left;
+    display: block;
+    width:50%;
+}
+
+/* Style the navbar */
+.topnav-right {
+    overflow: hidden;
+    /* padding: 40px; */
+  }
+
+  /* Style the input container */
+.topnav-right .login-container {
+    float: right;
+  }
+  
+  /* Style the input field inside the navbar */
+  .topnav-right input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    color: black;
+    border: none;
+    width: 150px; /* adjust as needed (as long as it doesn't break the topnav) */
+  }
+ 
+  /* Style the button inside the input container */
+  .topnav-right .login-container button {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    border: none;
+    cursor: pointer;
+  }
+
+  button{
+    margin-left: 3px;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+  
+  .topnav-right .login-container button:hover {
+    background: #6666ff;
+    color: white;
+  }
+
+
+  .rad{
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+
+/* -------------------- */
+/* SIGN UP */
+/* -------------------- */
+
+
+
+.section-form{
+   padding: 40px;
+}
+
+.section-form h3{
+  color: #6666ff;
+  font-size: 35px;
+  font-weight: 900;
+}
+
+.contact-form {
+   width: 28%;
+   margin: 0 auto;
+   padding: 50px;
+   border-color: #bbb;
+   border-style: solid;
+   border-radius: 10px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   -ms-border-radius: 10px;
+   -o-border-radius: 10px;
+}
+
+
+input[type=text],
+input[type=email],
+input[type=password], 
+input[type=date],
+select {
+    width: 100%;
+    text-align: center;
+    padding: 7px;
+    border: 1px solid #ccc;
+    
+}
+
+
+
+::-webkit-input-placeholder{
+  text-align: center;
+}
+
+:-moz-placeholder {
+  text-align: center;
+}
+
+
+#name,
+#date,
+#gender,
+#email,
+#password,
+#username {
+  border:none;
+  border-bottom: 1px solid #bbb;
+}
+
+
+
+#submit,
+#submit:link,
+#submit:visited,
+#submit:hover,
+#submit:active {
+  padding: 5px;
+  text-align: center;
+  border-color: #6666ff;
+  color: white;
+  background-color:#6666ff;
+  font-weight: 800;
+  font-size: 25px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+
+
+*:focus {outline: none;}
+
+input:focus{
+  color:#6666ff ;
+}
+
+:focus::-webkit-input-placeholder{
+  color: #6666ff;
+}
+
+/*   To center Date (date picker does not appear)   */
+
+input[type=date]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  display: none;
+}
+
+input[type=date]::-webkit-calendar-picker-indicator{
+  -webkit-appearance: none;
+    display: none;
+}
+
+
+
+select{
+  text-align-last: center;
+  /* color: #6666ff; */
+}
+
+/* -------------------- */
+/* FOOTER */
+/* -------------------- */
+
+footer{
+    background-color: #6666ff;
+    padding: 10px;
+    padding-bottom: 15px;
+   
+}
+
+footer p{
+    text-align: left;
+    color:white;
+    margin-top: 20px;
+
+}
+
+
+
+
+
+
+/*video*/
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+
+
+  .content1 {
+    /* top: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    position: fixed;
+    background-color: #6666ff; */
+    background-color:rgb(102,102,255);
+  }
+
+ 
+
+  .content3 {
+    /* color:rgb(102,102,255); */
+    background-color:rgb(102,102,255 ); 
+  }
+
+
+
+
+/* -------------------- */
+/* LOGIN PAGE */
+/* -------------------- */
+
+  .log-Form {
+    padding: 50px;
+  }
+
+  #log{
+    padding-bottom: 65px;
+  }
+
+
+/* .content4{
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    position: fixed; 
+    
+    opacity: 0.6;
+    color:rgba(0,0,0,0.6)
+}
+
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+}
+
+
+#chk input{
+    width:2%;
+} */
+
+
+
+
+/* -------------------- */
+/* HOME PAGE */
+/* -------------------- */
+
+
+/* Home Page Nav Bar */
+.home{
+  background-color: #6666ff;
+  margin: 0px;
+  padding: 0px; 
+}
+
+/* Home Page Side Nav Bar */
+
+/* .sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  border-right: 1px solid black;
+  background-color:white;
+  overflow-x: hidden;
+  padding-top: 10px;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color:black;
+  display: block;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.sidenav a ul{
+  color: #6666ff;
+}
+
+.sidenav a:hover{
+  color: #6666ff;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#mysidenav button{
+  margin-top: 20px;
+  background-color: white;
+  color: #6666ff;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+#opbtn{
+  font-size:30px;
+  cursor:pointer; 
+  float: left;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+ */
+
+ .sidenav {
+  width: 20%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  border-right: 1px solid black;
+  background-color:white;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav img{
+  height: 20px;
+  margin-right:5px;
+}
+
+.sidenav a {
+  padding: 3px 3px 3px 32px;
+  text-decoration: none;
+  font-size: 23px;
+  color:black;
+  display: block;
+}
+
+.sidenav a ul{
+  color: #6666ff;
+}
+
+.sidenav a:hover{
+  color: #6666ff;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#mysidenav{
+  padding-top:5px ;
+}
+
+#mysidenav button{
+  padding-top:5px; 
+  margin-top: 5px;
+  background-color: white;
+  color: #6666ff;
+  font-weight: bolder;
+  margin-bottom: 5px;
+}
+
+
+
+#home-l{
+  text-align:left;
+  display: block;
+  width:30%;
+  float: left;
+  padding:0px;
+}
+
+.comp{
+  padding-top: 5px;
+  font-size: 40px;
+}
+
+#prf{
+  padding-left: 20px;
+}
+
+.home-rad{
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+#search{
+  margin-top: 12px;
+  width: 250px;
+}
+
+#search-icon{
+  padding: 2px;
+  margin-top: 12px;
+  margin-left: 0;
+  border-radius:0;
+  -webkit-border-radius:0;
+  -moz-border-radius:0;
+  -ms-border-radius:0;
+  -o-border-radius:0;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+
+.ion-search{
+  padding: 2px; 
+}
+
+
+/* Tab List */
+
+.tab-list{
+  list-style: none;
+}
+
+.tab-list li{
+  display: inline;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+}
+
+.tab-list img{
+  height: 20px;
+  width: 20px;
+  margin: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
