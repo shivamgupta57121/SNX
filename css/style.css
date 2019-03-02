@@ -532,6 +532,11 @@ input[type=checkbox] {
 /* PROFILE PAGE */
 /* -------------------- */
 
+.sidenavp a{
+  
+  padding: 3px 3px 3px 25px;
+}
+
 
 .search1{
   margin-bottom: 10px;
@@ -587,16 +592,26 @@ input[type=checkbox] {
 
 .profile-info {
   margin: 15px;
-  height: 200px; 
   width: 810px; 
-  border: 1px solid black;
-  border-radius:5px;
-  -webkit-border-radius:5px;
-  -moz-border-radius:5px;
-  -ms-border-radius:5px;
-  -o-border-radius:5px;
+  
 }
 
 
+.p-info{
+  margin: 40px;
+}
+
+#lab{
+  margin-left:60%;
+}
+
+
+
+.p-info p{
+  
+  margin-right: 10%;
+  margin-left: 10%;
+  width: 80%;
+}
 
 
