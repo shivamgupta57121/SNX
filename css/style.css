@@ -411,15 +411,20 @@ input[type=checkbox] {
  */
 
  .sidenav {
-  width: 22%;
-  z-index: 1;
+  /* z-index: 1;
   top: 0;
-  left: 0;
-  margin: 10px;
+  left: 0; */
+  width: 100%;
+  margin: 15px;
   border: 1px solid black;
   background-color:white;
   overflow-x: hidden;
   padding-top: 20px;
+  border-radius:5px;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  -ms-border-radius:5px;
+  -o-border-radius:5px;
 }
 
 .sidenav img{
@@ -542,10 +547,55 @@ input[type=checkbox] {
   border: 1px solid black;
   background-color:white;
   overflow-x: hidden;
+  border-radius:5px;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  -ms-border-radius:5px;
+  -o-border-radius:5px;
+}
+
+#profile-main{
+  margin-left: 25px;
+  /* top:0;
+  left: 25%; */
+
 }
 
 
+.profile-photo{
+  margin: 15px;
+  height: 250px; 
+  width: 810px; 
+  border: 1px solid black;
+  border-radius:5px;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  -ms-border-radius:5px;
+  -o-border-radius:5px;
+}
 
+.profile-photo img{
+  margin: 10px;
+  height: 230px;
+  width: 790px;
+  border-radius:5px;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  -ms-border-radius:5px;
+  -o-border-radius:5px;
+}
+
+.profile-info {
+  margin: 15px;
+  height: 200px; 
+  width: 810px; 
+  border: 1px solid black;
+  border-radius:5px;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  -ms-border-radius:5px;
+  -o-border-radius:5px;
+}
 
 
 
