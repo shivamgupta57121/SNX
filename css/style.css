@@ -532,6 +532,10 @@ input[type=checkbox] {
 /* PROFILE PAGE */
 /* -------------------- */
 
+.com{
+  background-color: #e8e8e8;
+}
+
 .sidenavp a{
   
   padding: 3px 3px 3px 25px;
@@ -629,7 +633,7 @@ input[type=checkbox] {
 }
 
 #lab{
-  margin-left:60%;
+  margin-left:90%;
 }
 
 
@@ -637,7 +641,7 @@ input[type=checkbox] {
 .p-info p{
   
   margin-right: 10%;
-  margin-left: 10%;
+  margin-left: 4%;
   font-weight:bold;
   width: 80%;
 }
