@@ -600,7 +600,7 @@ input[type=checkbox] {
 
 /* Chat  */  
 .online {
-  width: 250px;
+  min-width: 250px;
   float: right;
   top: 0;
   margin: 15px;
@@ -615,7 +615,7 @@ input[type=checkbox] {
 }
 
 #profile-main{
-  margin-left: 25px;
+  margin-left: 0px;
   /* top:0;
   left: 25%; */
 
@@ -625,7 +625,7 @@ input[type=checkbox] {
 .profile-photo{
   margin: 15px;
   height: 250px; 
-  width: 810px; 
+  width: 800px; 
   border: 1px solid black;
   border-radius:5px;
   -webkit-border-radius:5px;
@@ -637,7 +637,7 @@ input[type=checkbox] {
 .profile-photo img{
   margin: 10px;
   height: 230px;
-  width: 790px;
+  width: 780px;
   border-radius:5px;
   -webkit-border-radius:5px;
   -moz-border-radius:5px;
