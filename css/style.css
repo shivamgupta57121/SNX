@@ -414,7 +414,7 @@ input[type=checkbox] {
   /* z-index: 1;
   top: 0;
   left: 0; */
-  width: 100%;
+  /* width: 100%; */
   margin: 15px;
   border: 1px solid black;
   background-color:white;
@@ -559,6 +559,23 @@ input[type=checkbox] {
 
 .show {
   display: block;
+}
+
+.home-chat {
+  margin: 15px;
+  border: 1px solid black;
+  background-color:white;
+  border-radius:5px;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  -ms-border-radius:5px;
+  -o-border-radius:5px;
+}
+
+.home-chat img{
+  height: 65px;
+  padding: 5px;
+  padding-top: 10px;
 }
 
 
