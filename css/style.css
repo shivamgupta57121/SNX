@@ -448,13 +448,13 @@ input[type=checkbox] {
   color: #6666ff;
 }
 
-.sidenav .closebtn {
+/* .sidenav .closebtn {
   position: absolute;
   top: 0;
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
-}
+} */
 
 #mysidenav{
   padding-top:5px ;
@@ -610,6 +610,29 @@ input[type=checkbox] {
   -o-border-radius:5px;
 }
 
+
+.online img{
+  height: 30px;
+}
+
+.online a {
+  padding: 5px 3px 5px 32px;
+  text-decoration: none;
+  font-size: 30px;
+  color:black;
+  display: block;
+}
+
+.online a:hover{
+  color: #6666ff;
+}
+
+#online{
+  color: green;
+  margin-right:5px;
+}
+
+
 #profile-main{
   margin-left: 0px;
   /* top:0;
@@ -621,7 +644,7 @@ input[type=checkbox] {
 .profile-photo{
   margin: 15px;
   height: 250px; 
-  width: 810px; 
+  /* width: 810px;  */
   border: 1px solid black;
   border-radius:5px;
   -webkit-border-radius:5px;
@@ -633,7 +656,7 @@ input[type=checkbox] {
 .profile-photo img{
   margin: 10px;
   height: 230px;
-  width: 790px;
+  width: 880px;
   border-radius:5px;
   -webkit-border-radius:5px;
   -moz-border-radius:5px;
@@ -670,25 +693,22 @@ input[type=checkbox] {
 
 .profile-info {
   margin: 15px;
+  padding: 25px 0 25px 25px;
   width: 810px; 
   
 }
 
 
-.p-info{
-  margin: 40px;
-}
-
 #lab{
-  margin-left:90%;
+  margin-left:100%;
 }
 
 
 
-.p-info p{
+.profile-info p{
   
-  margin-right: 10%;
-  margin-left: 4%;
+  margin-right: 0%;
+  margin-left: 14%;
   font-weight:bold;
   width: 80%;
 }
