@@ -728,16 +728,23 @@ input[type=checkbox] {
   width: 80%;
 }
 
+.profile-box{
+  margin-bottom: 50px;
+  margin-right: 15px;
+}
 
 .profile-box a{
-  text-decoration:none;
-  color: black;
+  color: white;
 }
 
 .profile-box li{
-  list-style: none;
-  display: inline;
+  text-align: center;
+  background-color: #6666ff;
+}
 
+.profile-box a:hover,
+.profile-box a:active{
+  color: black;
 }
 
 

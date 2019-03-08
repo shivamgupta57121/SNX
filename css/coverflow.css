@@ -37,8 +37,8 @@
   max-width: 800px;
   z-index: 10;
   position: relative;
-  -webkit-backface-visibility: hidden;
-  margin:0 0 30px 17px;
+  /* -webkit-backface-visibility: hidden; */
+  margin:0 0 30px 20px;
   border: 2px solid black;
   border-radius:5px;
   -webkit-border-radius:5px;
