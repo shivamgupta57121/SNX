@@ -416,7 +416,7 @@ input[type=checkbox] {
   left: 0; */
   /* width: 100%; */
   margin: 15px;
-  border: 1px solid black;
+  border: 1px solid #6666ff;
   background-color:white;
   overflow-x: hidden;
   padding-top: 20px;
@@ -601,7 +601,7 @@ input[type=checkbox] {
   top: 0;
   /* margin: 15px; */
   margin-top: 15px;
-  border: 1px solid black;
+  border: 1px solid #6666ff;
   background-color:white;
   overflow-x: hidden;
   border-radius:5px;
@@ -670,13 +670,13 @@ input[type=checkbox] {
   /* margin: 10px; */
   height: 230px;
   width: 810px;
-  padding: 10px;
+  /* padding: 10px;
   border: 1px solid black; 
   border-radius:5px;
   -webkit-border-radius:5px;
   -moz-border-radius:5px;
   -ms-border-radius:5px;
-  -o-border-radius:5px;
+  -o-border-radius:5px; */
 }
 
 
@@ -708,7 +708,7 @@ input[type=checkbox] {
 
 .profile-info {
   margin: 15px;
-  padding: 25px 0 25px 25px;
+  padding: 10px 0 10px 25px;
   width: 810px; 
   
 }
@@ -747,7 +747,15 @@ input[type=checkbox] {
   color: black;
 }
 
+.profile-box img{
+  height: 25px;
+  padding-right: 10px;
+  padding-bottom: 5px; 
+}
 
-
+button a{
+  color:white;
+  text-decoration: none; 
+}
 
 
