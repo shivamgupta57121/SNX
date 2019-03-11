@@ -758,18 +758,18 @@ button a{
   text-decoration: none; 
 }
 
-
-.friends img{
-  height: 250px;
-  width: 800px;
-  /* padding: 10px; */
-  padding-right: 16px;
-  margin-bottom: 20px;
+.friends {
+  position: relative;
+  width: 100%;
 }
 
-.image {
+.friends .image {
+  padding-right: 16px;
+  margin-bottom: 20px;
+  height: 250px;
   opacity: 1;
   display: block;
+  height: 60%;
   width: 100%;
   height: auto;
   transition: .5s ease;
@@ -780,7 +780,7 @@ button a{
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 80%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
