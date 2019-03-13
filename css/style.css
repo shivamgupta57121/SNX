@@ -561,12 +561,8 @@ input[type=checkbox] {
   margin: 5px;
 }
 
-.post-r ul{
-
-}
 
 .post-r li{
-  display: inline;
   margin-bottom: 15px;
   text-align: center;
   list-style: none;
@@ -574,9 +570,9 @@ input[type=checkbox] {
   color: white;
 }
 
-#react{
+/* #react{
 
-}
+} */
 
 /* -------------------- */
 /* PROFILE PAGE */
