@@ -498,7 +498,7 @@ input[type=checkbox] {
 
 .home-chat {
   margin: 15px;
-  border: 1px solid black;
+  border: 1px solid #6666ff;
   background-color:white;
   border-radius:5px;
   -webkit-border-radius:5px;
@@ -518,6 +518,65 @@ input[type=checkbox] {
   width: 80px;
 }
 
+
+
+.post{
+  background: #b3b3ff;
+  color: white;
+  margin-bottom: 20px;
+  border:1px solid #6666ff;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.post-l img{
+  width: 100%;
+  margin-top: 15px;
+}
+
+.post-l p{
+  margin-bottom: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.post-r p,
+.post img {
+  margin-top: 15px; 
+  font-weight: bold;
+}
+
+.post-r img{
+  margin-bottom: 10px;
+  width: 100%;
+  max-height: 300px;
+}
+
+.post-tab img{
+  height: 23px;
+  width: 23px;
+  margin: 5px;
+}
+
+.post-r ul{
+
+}
+
+.post-r li{
+  display: inline;
+  margin-bottom: 15px;
+  text-align: center;
+  list-style: none;
+  background-color: #6666ff;
+  color: white;
+}
+
+#react{
+
+}
 
 /* -------------------- */
 /* PROFILE PAGE */
