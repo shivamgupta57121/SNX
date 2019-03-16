@@ -5,6 +5,7 @@
         <link rel="stylesheet" type="text/css" href="lib/css/bootstrap.css">
         <link rel="stylesheet" type="text/css" href="lib/css/normalize.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/3dslider.css">
         <link rel="stylesheet" type="text/css" href="css/queries.css">
         
         <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
@@ -109,9 +110,9 @@
                            specimen book.</p>
                         <div class="post-tab">
                             <ul>
-                                <li id="react" class="col-lg-4"><img src="lib/images/react.png">React</li>
-                                <li class="col-lg-4"><img src="lib/images/comment.png">Commment</li>
-                                <li class="col-lg-4"><img src="lib/images/share.png">Share</li>
+                                <li id="react" class="col-lg-4 post-tab-li"><img src="lib/images/react.png">React</li>
+                                <li class="col-lg-4 post-tab-li"><img src="lib/images/comment.png">Commment</li>
+                                <li class="col-lg-4 post-tab-li"><img src="lib/images/share.png">Share</li>
                             </ul>
                         </div>
                     </div>
@@ -123,12 +124,32 @@
                         <p>Deepika</p>
                     </div>
                     <div class="post-r col-lg-9">
-                        <img src="lib/images/dp2.jpg">
+                        <!-- <img src="lib/images/dp2.jpg"> -->
+
+                        <div class="cont">
+                              <div class="button" onclick="shiftLeft()"><img src="https://image.ibb.co/mRsEb7/left_arrow.png" alt=""></div>
+                              <div class="cards-wrapper">
+                                  <ul class="cards__container">
+                                      <li class="box"><img src="lib/images/dp.jpg"></li>
+                                      <li class="box"><img src="lib/images/dp1.jpg"></li>
+                                      <li class="box"><img src="lib/images/dp2.jpg"></li>
+                                      <li class="box"><img src="lib/images/dp3.jpg"></li>
+                                      <li class="box"><img src="lib/images/dp.jpg"></li>
+                                      <li class="box box--hide"><img src="lib/images/dp1.jpg"></li>
+                                      <li class="box box--hide"><img src="lib/images/dp2.jpg"></li>
+                                  </ul>
+                                  
+                              </div>
+                            
+                              <div class="button" onclick="shiftRight()"><img src="https://image.ibb.co/dfPSw7/right_arrow.png" alt=""></div>
+                            
+                        </div>
+                            
                         <div class="post-tab" id="post-tab">
                             <ul>
-                                <li id="react" class="col-lg-4"><img src="lib/images/react.png">React</li>
-                                <li class="col-lg-4"><img src="lib/images/comment.png">Commment</li>
-                                <li class="col-lg-4"><img src="lib/images/share.png">Share</li>
+                                <li id="react" class="col-lg-4 post-tab-li"><img src="lib/images/react.png">React</li>
+                                <li class="col-lg-4 post-tab-li"><img src="lib/images/comment.png">Commment</li>
+                                <li class="col-lg-4 post-tab-li"><img src="lib/images/share.png">Share</li>
                             </ul>
                         </div>
                     </div>
@@ -146,5 +167,6 @@
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script src="js/script.js"></script>
+        <script src="js/3dslider.js"></script>
     </body>
 </html>
