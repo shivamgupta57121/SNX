@@ -58,11 +58,45 @@
 
             <section class="col-lg-9 col-sm-9">
                 <div class="network-img"><img src="lib/images/lsr.jpg"></div>
-                <i class="ion-chevron-down" class="dropdept" onclick="myDept()"></i>
-                <div id="subnav" class="dropdown-clg">
+                <i class="ion-chevron-down dropclg" onclick="myClg()"></i>
+                <div id="subnavclg" class="dropdown-clg">
 
                     <ul>
-                        <li class="item">Department</li>
+                        <li class="item" onclick="myDept()">Department</li>
+                            <div id="subnavdept" class="dropdown-dept">
+                                <ul>
+                                    <li class="item item1">Commerce</li>
+                                    <li class="item item1">Economics</li>
+                                    <li class="item item1">English</li>
+                                    <li class="item item1">Hindi</li>
+                                    <li class="item item1">History</li>
+                                    <li class="item item1">Journalism</li>
+                                    <li class="item item1">Maths</li>
+                                    <li class="item item1" onclick="mySpec()">Philosophy</li>
+                                        <div id="subnavspec" class="dropdown-spec">
+                                            <ul>
+                                                <li class="item item2"onclick="myBatch()">Batch</li>
+                                                    <div id="subnavbat" class="dropdown-bat">
+                                                        <ul>
+                                                            <li class="item item3">2014-17</li>
+                                                            <li class="item item3">2015-18</li>
+                                                            <li class="item item3">2016-19</li>
+                                                            <li class="item item3">2017-20</li>
+                                                        </ul>
+                                                    </div>
+                                                <li class="item item2">News / Events</li>
+                                                <li class="item item2">Student's Union</li>
+                                                <li class="item item2">Enquiry</li>
+                                            </ul>
+                                        </div>
+                                    <li class="item item1">Political Science</li>
+                                    <li class="item item1">Physical</li>
+                                    <li class="item item1">Sanskrit</li>
+                                    <li class="item item1">Socio</li>
+                                    <li class="item item1">Statistics</li>
+                                    <li class="item item1">B.A. Program</li>
+                                </ul>
+                            </div>
                         <li class="item">News</li>
                         <li class="item">Admission</li>
                         <li class="item">Board Members</li>

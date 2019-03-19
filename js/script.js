@@ -86,12 +86,26 @@ function myFunction() {
 
 
 
+////for networkx page
+
 /* When the user clicks on the arrow down open the list */ 
+function myClg() {
+	document.getElementById("subnavclg").classList.toggle("show");
+  }
+
 function myDept() {
-	document.getElementById("subnav").classList.toggle("show");
+	document.getElementById("subnavdept").classList.toggle("show");
+  }
+
+function mySpec() {
+	document.getElementById("subnavspec").classList.toggle("show");
+  }
+
+function myBatch() {
+	document.getElementById("subnavbat").classList.toggle("show");
   }
   
-  // Close the dropdown if the user clicks outside of it
+// Close the dropdown if the user clicks outside of it
 //   window.onclick = function(e) {
 // 	if (!e.target.matches('.dropdept')) {
 // 	var subnav = document.getElementById("subnav");
