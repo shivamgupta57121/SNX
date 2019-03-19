@@ -83,3 +83,20 @@ function myFunction() {
 	  }
 	}
   }
+
+
+
+/* When the user clicks on the arrow down open the list */ 
+function myDept() {
+	document.getElementById("subnav").classList.toggle("show");
+  }
+  
+  // Close the dropdown if the user clicks outside of it
+//   window.onclick = function(e) {
+// 	if (!e.target.matches('.dropdept')) {
+// 	var subnav = document.getElementById("subnav");
+// 	  if (subnav.classList.contains('show')) {
+// 		subnav.classList.remove('show');
+// 	  }
+// 	}
+//   }

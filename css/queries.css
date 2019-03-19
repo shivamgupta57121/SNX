@@ -1,9 +1,17 @@
-/* Big tablet to 1200px (widths smaller taht the 1140px row) */
-@media only screen and (max-width: 1200px) {
-    .row { padding: 0 2%; }
+/* Big tablet to 1536px (widths larger than the 1200px row) */
+@media only screen and (max-width: 1536px) {
+    .row { padding: 0 0; }
+}
+
+/* Big tablet to 1200px (widths smaller that the 1200px row) */
+@media only screen and (max-width: 1199px) {
+    .row { padding: 0 1%; }
     .text-box {
         width: 100%;
         padding: 0 2%;
+    }
+    .network-img img{
+        height: 270px;
     }
 }
 
