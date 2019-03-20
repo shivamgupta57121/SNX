@@ -850,3 +850,59 @@ button a{
   margin-left:37.55%;
   width: 25%;
 }
+
+#subnavyear{
+  display: none;
+}
+
+.dropdown-bat h3{
+  margin-right: 3%;
+}
+
+
+.batchimg p{
+  width: 16%;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.batchimg figure{
+  margin: 0%;
+  margin-right: 20px;
+  padding: 20px;
+}
+
+.batchimg img{
+  height: 25%;
+  min-height: 200px;
+  width: 200px;
+}
+
+.batchimg figcaption{
+  width: 200px;
+  text-align: center;
+}
+
+
+.box {
+  position: relative;
+  display: inline-block;
+}
+
+.box img {
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+
+.box:hover img {
+  opacity: 0.3;
+}
+
+.box:hover .middle {
+  opacity: 1;
+}
+
+

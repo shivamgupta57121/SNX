@@ -91,26 +91,32 @@ function myFunction() {
 /* When the user clicks on the arrow down open the list */ 
 function myClg() {
 	document.getElementById("subnavclg").classList.toggle("show");
+	document.getElementById("subnavyear").classList.remove("show");
+	document.getElementById("subnavbat").classList.remove("show");
+	document.getElementById("subnavspec").classList.remove("show");
+	document.getElementById("subnavdept").classList.remove("show");
   }
 
 function myDept() {
 	document.getElementById("subnavdept").classList.toggle("show");
+	document.getElementById("subnavbat").classList.remove("show");
+	document.getElementById("subnavspec").classList.remove("show");
   }
 
 function mySpec() {
 	document.getElementById("subnavspec").classList.toggle("show");
+	document.getElementById("subnavbat").classList.remove("show");
   }
 
 function myBatch() {
 	document.getElementById("subnavbat").classList.toggle("show");
+	}
+	
+function myYear(){
+	document.getElementById("subnavyear").classList.toggle("show");
+	document.getElementById("subnavclg").classList.remove("show");
+	document.getElementById("subnavbat").classList.remove("show");
+	document.getElementById("subnavspec").classList.remove("show");
+	document.getElementById("subnavdept").classList.remove("show");
   }
   
-// Close the dropdown if the user clicks outside of it
-//   window.onclick = function(e) {
-// 	if (!e.target.matches('.dropdept')) {
-// 	var subnav = document.getElementById("subnav");
-// 	  if (subnav.classList.contains('show')) {
-// 		subnav.classList.remove('show');
-// 	  }
-// 	}
-//   }

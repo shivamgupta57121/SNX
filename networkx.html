@@ -4,6 +4,7 @@
         <link rel="stylesheet" type="text/css" href="lib/css/normalize.css">
         <link rel="stylesheet" type="text/css" href="lib/css/ionicons.min.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/3dslider.css">
         <link rel="stylesheet" type="text/css" href="css/queries.css">
         
         <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
@@ -75,13 +76,13 @@
                                     <li class="item item1" onclick="mySpec()">Philosophy</li>
                                         <div id="subnavspec" class="dropdown-spec">
                                             <ul>
-                                                <li class="item item2"onclick="myBatch()">Batch</li>
+                                                <li class="item item2" onclick="myBatch()">Batch</li>
                                                     <div id="subnavbat" class="dropdown-bat">
                                                         <ul>
-                                                            <li class="item item3">2014-17</li>
-                                                            <li class="item item3">2015-18</li>
-                                                            <li class="item item3">2016-19</li>
-                                                            <li class="item item3">2017-20</li>
+                                                            <li class="item item3" onclick="myYear()">2014-17</li>
+                                                            <li class="item item3" onclick="myYear()">2015-18</li>
+                                                            <li class="item item3" onclick="myYear()">2016-19</li>
+                                                            <li class="item item3" onclick="myYear()">2017-20</li>
                                                         </ul>
                                                     </div>
                                                 <li class="item item2">News / Events</li>
@@ -106,6 +107,133 @@
                     </ul>
 
                 </div>
+                <div id="subnavyear" class="dropdown-bat">
+                    <ul>
+                        <li class="item">Batch 2014-17</li>
+                    </ul>
+                    
+                    <div class="row batchimg">
+                        <p class="col-lg-1">2015</p>
+                        <figure class="col-lg-3">
+                            <img src="lib/images/fr1.jpeg">
+                            <figcaption>John</figcaption>
+                        </figure>
+                        <figure class="col-lg-3">
+                            <img src="lib/images/fr1.jpg">
+                            <figcaption>Rahul</figcaption>
+                        </figure>
+                        <figure class="col-lg-3">
+                            <img src="lib/images/fr2.jpg">
+                            <figcaption>Manjeet Dayal</figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="row batchimg">
+                        <p class="col-lg-1">2014</p>
+                        <figure class="col-lg-3">
+                            <img src="lib/images/fr1.jpg">
+                            <figcaption>Rahul</figcaption>
+                        </figure>
+                        <figure class="col-lg-3">
+                            <img src="lib/images/fr2.jpg">
+                            <figcaption>Manjeet Dayal</figcaption>
+                        </figure>
+                        <figure class="col-lg-3">
+                            <img src="lib/images/fr3.jpg">
+                            <figcaption>Deepika</figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="row batchimg">
+                        <p class="col-lg-1">2016</p>
+                        <figure class="col-lg-3">
+                            <img src="lib/images/fr2.jpg">
+                            <figcaption>Manjeet Dayal</figcaption>
+                        </figure>
+                        <figure class="col-lg-3">
+                            <img src="lib/images/fr3.jpg">
+                            <figcaption>Deepika</figcaption>
+                        </figure>
+                        <figure class="col-lg-3">
+                            <img src="lib/images/fr1.jpeg">
+                            <figcaption>John</figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="row batchimg">
+                        <p class="col-lg-1">2017</p>
+                        <figure class="col-lg-3">
+                            <img src="lib/images/fr3.jpg">
+                            <figcaption>Deepika</figcaption>
+                        </figure>
+                        <figure class="col-lg-3">
+                            <img src="lib/images/fr1.jpeg">
+                            <figcaption>John</figcaption>
+                        </figure>
+                        <figure class="col-lg-3">
+                            <img src="lib/images/fr1.jpg">
+                            <figcaption>Rahul</figcaption>
+                        </figure>
+                    </div>
+
+                    <h3>Batchmates</h3>
+
+                    <div class="cont">
+                        <div class="button" onclick="shiftLeft()"><img src="https://image.ibb.co/mRsEb7/left_arrow.png" alt=""></div>
+                        <div class="cards-wrapper">
+                            <ul class="cards__container">
+                                <li class=" box">
+                                    <img src="lib/images/dp.jpg">
+                                    <div class="middle">
+                                        <div class="text">John</div>
+                                    </div>
+                                </li>
+                                <li class="box">
+                                    <img src="lib/images/dp1.jpg">
+                                    <div class="middle">
+                                        <div class="text">Rahul</div>
+                                    </div>
+                                </li>
+                                <li class="box">
+                                    <img src="lib/images/dp2.jpg">
+                                    <div class="middle">
+                                        <div class="text">Udit</div>
+                                    </div>
+                                </li>
+                                <li class="box">
+                                    <img src="lib/images/dp3.jpg">
+                                    <div class="middle">
+                                        <div class="text">Himanshu</div>
+                                    </div>
+                                </li>
+                                <li class="box">
+                                    <img src="lib/images/dp.jpg">
+                                    <div class="middle">
+                                        <div class="text">John</div>
+                                    </div>
+                                </li>
+                                <li class="box box--hide">
+                                    <img src="lib/images/dp1.jpg">
+                                    <div class="middle">
+                                        <div class="text">Rahul</div>
+                                    </div>
+                                </li>
+                                <li class="box box--hide">
+                                    <img src="lib/images/dp2.jpg">
+                                    <div class="middle">
+                                        <div class="text">Udit</div>
+                                    </div>
+                                </li>
+                            </ul>
+                            
+                        </div>
+                      
+                        <div class="button" onclick="shiftRight()"><img src="https://image.ibb.co/dfPSw7/right_arrow.png" alt=""></div>
+                      
+                  </div>
+
+                </div>
+
             </section>
 
         </div>
@@ -113,5 +241,6 @@
          
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script src="js/script.js"></script>
+        <script src="js/3dslider.js"></script>
     </body>
 </html>
