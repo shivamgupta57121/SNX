@@ -4,7 +4,7 @@
         <link rel="stylesheet" type="text/css" href="lib/css/normalize.css">
         <link rel="stylesheet" type="text/css" href="lib/css/ionicons.min.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link rel="stylesheet" type="text/css" href="css/3dslider.css">
+        <link rel="stylesheet" type="text/css" href="css/stroll.css">
         <link rel="stylesheet" type="text/css" href="css/queries.css">
         
         <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
@@ -60,24 +60,74 @@
             <section class="col-lg-9 col-sm-9">
                 <div class="network-img"><img src="lib/images/lsr.jpg"></div>
                 <div class="clg row">
-                    <div class="col-lg-2 clgsub cl1"><p>Department</p></div>
-                    <div class="col-lg-2 clgsub cl2">News/Article</div>
-                    <div class="col-lg-2 clgsub cl3">Admisssion</div>
-                    <div class="col-lg-2 clgsub cl4">Board Members</div>
-                    <div class="col-lg-2 clgsub cl5">Alumni</div>
-                    <div class="col-lg-2 clgsub cl6">Contact</div>
+                    <div class="col-lg-2 clgsub cl1" onclick="dept()">Department</div>
+                    <div class="col-lg-2 clgsub cl2" onclick="news()">News/Article</div>
+                    <div class="col-lg-2 clgsub cl3" onclick="adm()">Admisssion</div>
+                    <div class="col-lg-2 clgsub cl4" onclick="bdm()">Board Members</div>
+                    <div class="col-lg-2 clgsub cl5" onclick="alm()">Alumni</div>
+                    <div class="col-lg-2 clgsub cl6" onclick="cont()">Contact</div>
                 </div>
-                <div class="clgdetails">
+                <div class="clgbasic cl1 clgdept" id="clgdept">
+                    <div id="main">
+                        <article>
+                            <ul class="helix">
+                                <li>One</li>
+                                <li>Two</li>
+                                <li>Three</li>
+                                <li>Four</li>
+                                <li>Five</li>
+                                <li>Six</li>
+                                <li>Seven</li>
+                                <li>Eight</li>
+                                <li>Nine</li>
+                                <li>Ten</li>
+                                <li>Eleven</li>
+                                <li>Twelve</li>
+                                <li>Thirteen</li>
+                                <li>Fourteen</li>
+                                <li>Fifteen</li>
+                                <li class="future">Ninetyeight</li>
+                                <li class="future">Ninetynine</li>
+                            </ul>
+                        </article>
+                    </div>
+                </div>
+                <div class="clgbasic cl2 clgnews" id="clgnews">
+
+                </div>
+                <div class="clgbasic cl3 clgadm" id="clgadm">
+
+                </div>
+                <div class="clgbasic cl4 clgbdm" id="clgbdm">
+
+                </div> 
+                <div class="clgbasic cl5 clgalm" id="clgalm">
+
+                </div>
+                <div class="clgbasic cl6 clgcont" id="clgcont">
 
                 </div>
 
             </section>
 
         </div>
-
+        <div id="main">
+			
+			<article>
+				<h2>Helix (CSS 3D)</h2>
+				<ul class="helix"><li>One</li><li>Two</li><li>Three</li><li>Four</li><li>Five</li><li>Six</li><li>Seven</li><li>Eight</li><li>Nine</li><li>Ten</li><li>Eleven</li><li>Twelve</li><li>Thirteen</li><li>Fourteen</li>
+                    <li>Ninetyeight</li><li>Ninetynine</li></ul>
+            </article>
+        </div>
          
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script src="js/script.js"></script>
-        <script src="js/3dslider.js"></script>
+        <script src="lib/js/stroll.js"></script>
+        <!-- <script>
+			stroll.bind( '#clgdept ul' );
+        </script> -->
+        <script>
+			stroll.bind( '#main ul' );
+		</script>
     </body>
 </html>
