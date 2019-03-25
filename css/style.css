@@ -589,6 +589,16 @@ input[type=checkbox] {
 /* PROFILE PAGE */
 /* -------------------- */
 
+#social1,
+#social2{
+  display: none;
+}
+
+#network{
+  display: none;
+}
+
+
 .backg{
   background-color: #e6e6ff;
 }
@@ -848,6 +858,15 @@ button a{
   background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
   box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
 }
+
+
+/* profile for linkedin*/
+
+.home-networkprf{
+  background-color: #0000ff;
+}
+
+
 
 
 

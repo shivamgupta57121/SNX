@@ -139,3 +139,8 @@ function cont() {
 }
 
 
+function network() {
+	document.getElementById("network").classList.add("show");
+	document.getElementById("social1").classList.remove("show");
+	document.getElementById("social2").classList.remove("show");
+}

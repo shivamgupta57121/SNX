@@ -16,7 +16,7 @@
     </head>
     <body>
 
-        <header class="home">
+        <header class="home show" id="social1">
                 <nav class="topnav-left" id="home-l" style="height:58px;">
                         <div class="row">
                             <ul class="company comp">
@@ -35,7 +35,7 @@
                 </div>
         </header>
 
-        <div class=" backg  row ">
+        <div class=" backg  row show " id="social2">
 
             <section class=" col-lg-3" style="max-width:350px; padding-left: 0;">
                 <div id="mySidenav" class="sidenav sidenavp">
@@ -105,9 +105,8 @@
                     </div>
                             
                 </div>
-
-                
-                <div class="stage">
+ 
+                <!-- <div class="stage">
             
                         <div class="cbImage"><img src="http://lorempixel.com/200/268/sports" alt="Alt" /></div>
                 
@@ -133,7 +132,7 @@
                 
                         <div class="clear"></div>
                 
-                </div>
+                </div> -->
                 
                 <div class="friends-box">
                     <div class="friends">
@@ -163,7 +162,7 @@
                 </div>
                 
                 <div class="buttons">
-                    <button class="btn-hover color-1">NETWORKX</button>
+                    <button class="btn-hover color-1 " onclick="network()">NETWORKX</button>
                 </div>
 
 
@@ -220,6 +219,31 @@
             
         </div>    
             
+        <div id="network">
+
+            <div class="home home-networkprf">
+                    <nav class="topnav-left" id="home-l" style="height:58px;">
+                            <div class="row">
+                                <ul class="company comp">
+                                    <li>  Network</li>
+                                </ul>
+                            </div>
+                    </nav>
+                    <div class="topnav-right" id="home-r">
+                            <div class="login-container"> 
+                                    <input type="text" placeholder="Search" name="Search" class="home-rad search1" id="search" style="width:212px;">
+                                    <button type="submit" id="search-icon"><img src="lib/images/search.png"></button> 
+                            </div>
+                    </div>
+            </div>
+
+            <div>
+
+            </div>
+
+        </div>
+
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script src="lib/js/coverflow-slideshow.js"></script>
         <script src="js/script.js"></script>
