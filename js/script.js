@@ -144,3 +144,9 @@ function network() {
 	document.getElementById("social1").classList.remove("show");
 	document.getElementById("social2").classList.remove("show");
 }
+
+function social() {
+	document.getElementById("network").classList.remove("show");
+	document.getElementById("social1").classList.add("show");
+	document.getElementById("social2").classList.add("show");
+}

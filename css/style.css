@@ -789,31 +789,6 @@ button a{
   backface-visibility: hidden;
 }
 
-/* .middle {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.friends:hover .image {
-  opacity: 0.3;
-}
-
-.friends:hover .middle {
-  opacity: 1;
-}
-
-.text {
-  background-color: #4CAF50;
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
-} */
 
 .overlay {
   position: absolute;
@@ -876,7 +851,8 @@ button a{
 }
 
 .btn-hover.color-1 {
-  background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+  /* background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673); */
+  background-image: linear-gradient(to right,#00ffff , #00ccff, #0099ff, #0066ff);
   box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
 }
 
@@ -885,11 +861,47 @@ button a{
 
 .home-networkprf{
   background-color: #0000ff;
+  overflow: hidden;
 }
 
+.home-networkprf nav{
+  width: 30%;
+}
 
+.middle{
+  width: 40%;
+  float: left;
+}
+.home-networkprf a{
+  margin:40px 20px;
+}
 
+#search1{
+  margin-top: 10px;
+  width:50%;
+}
 
+#search-icon1{
+  padding:7px 4px 3px 4px;
+  margin-left: -4px;
+  border-radius:0;
+  -webkit-border-radius:0;
+  -moz-border-radius:0;
+  -ms-border-radius:0;
+  -o-border-radius:0;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.net-right{
+  width:30%;
+  float: right;
+ 
+}
+
+.section-networkprf{
+  background-color: #b3ffff;
+}
 
 /* -------------------- */
 /* HOME PAGE */
