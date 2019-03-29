@@ -860,7 +860,7 @@ button a{
 /* profile for linkedin*/
 
 .home-networkprf{
-  background-color: #0000ff;
+  background-color: #a366ff;
   overflow: hidden;
 }
 
@@ -900,7 +900,7 @@ button a{
 }
 
 .section-networkprf{
-  background-color: #b3ffff;
+  background-color: #d1b3ff;
   padding-top:40px; 
   padding-bottom: 40px;
 }
@@ -939,11 +939,17 @@ button a{
   -o-transform: translate(-50%, -50%);
 }
 
+
+/* .timeline{
+
+} */
+
+
 .linkprf-info{
   margin:50px 15% 0 15%;
   width: 70%;
   background-color: white;
-  border: 1px solid black;
+  border: 1px solid white;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -952,10 +958,14 @@ button a{
 }
 
 .linkprf-hd{
-  border-bottom: 1px solid black;
+  /* border-bottom: 1px solid black; */
   text-align: center;
   text-transform: capitalize;
   font-size: 30px;
+  -moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
   background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
   box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
 }
@@ -966,18 +976,22 @@ button a{
 
 .linkprf-det{
   list-style: none;
-  width: 80%;
-  margin: 20px 10% 20px 10%;
+  width: 90%;
+  margin: 20px 5% 20px 5%;
 }
 
 .linkprf-det li{
-  border: 1px solid black;
-  margin-bottom: 20px;
+  /* border: 1px solid black; */
+  color:black;
+  margin-bottom: 20px; 
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
+  /* background-image: linear-gradient(to right, #0ba360, #3cba92, #30dd8a, #2bb673);*/
+  box-shadow: 0 4px 15px 0 rgba(240, 230, 255, 0.75); 
+  background-color: #f0e6ff;
 }
 
 .linkprf-det p{
