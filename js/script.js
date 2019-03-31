@@ -150,3 +150,13 @@ function social() {
 	document.getElementById("social1").classList.add("show");
 	document.getElementById("social2").classList.add("show");
 }
+
+
+function react(){
+	document.getElementById("react").classList.toggle("hide");
+}
+
+
+function react1(){
+	document.getElementById("react1").classList.toggle("hide");
+}
