@@ -153,7 +153,9 @@
                 </div>
                 
                 <div class="buttons">
-                    <button class="btn-hover color-1 " onclick="network()">NETWORKX</button>
+                    <a href="#network">
+                        <button class="btn-hover color-1 " onclick="network()">NETWORKX</button>
+                    </a>
                 </div>
 
 
@@ -220,7 +222,7 @@
                             </ul>
                         </div>
                 </nav>
-                <div class="topnav-right middle">
+                <!-- <div class="topnav-right middle">
                     <input type="text" placeholder="Search" name="Search" class="home-rad" id="search1">
                     <button type="submit" id="search-icon1"><img src="lib/images/search.png"></button> 
                     <a href="#" data-toggle="tooltip" title="Home1" style="margin-left:40px;"><img src="lib/images/home.png"></a>
@@ -228,117 +230,131 @@
                 </div>
                 <div class="net-right">
                     <button class="btn-hover color-1 " style=" margin-top:8px; margin-bottom: 8px; height:40px; width: 80%;  " onclick="social()">SOCIAL</button>
+                </div> -->
+                <div class="topnav-right" id="home-r">
+                        <div class="login-container">
+                                
+                                <a href="home.html"  data-toggle="tooltip" title="Home"  class="col" style="margin:15px;"><img src="lib/images/home.png"  height="25px"></a>
+                                <input type="text" placeholder="Search" name="Search" class="home-rad search1" id="search" style="width:212px;">
+                                <button type="submit" id="search-icon"><img src="lib/images/search.png"></button> 
+                        </div>
                 </div>
             </div>
 
-            <div class="section-networkprf">
+            <div class="section-networkprf row">
 
-                <div class="hero-image">
-                    <div class="hero-text">
-                      <h1 style="font-size:50px">Shivam Gupta</h1>
-                      <p>Website Developer</p>
+                <div class="col-lg-8">
+                    
+                    <div class="buttons" style="margin-bottom:2%;">
+                        <button class="btn-hover homebtn color-2 ">JOB</button>
+                        <button class="btn-hover homebtn color-2 ">BUISNESS MODEL</button>
+                        <button class="btn-hover homebtn color-2 ">DISCOVER</button>
                     </div>
+
+                    <div class="hero-image">
+                        <div class="hero-text">
+                        <h1 style="font-size:50px">Shivam Gupta</h1>
+                        <p>Website Developer</p>
+                        </div>
+                    </div>
+
+                    <div class="linkprf-info">
+                        <div class="linkprf-hd">Education</div>
+                        <ul class="linkprf-det">
+                            <li class="list">
+                                <p style="margin-top:10px;">B.Tech (pursuing)</p>
+                                <p>Year : 2016-20</p>
+                                <p>Guru Gobind Singh Indraprastha University</p>
+                            </li>
+                            <li class="list">
+                                <p style="margin-top:10px;">Senior Secondary</p>
+                                <p>Year : 2015-16</p>
+                                <p>Arunodaya Public School</p>
+                            </li>
+                            <li class="list" style="margin-bottom:0;">
+                                <p style="margin-top:10px;">High School</p>
+                                <p>Year : 2013-14</p>
+                                <p>Arunodaya Public School</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="linkprf-info">
+                        <div class="linkprf-hd">Work Experiance</div>
+                        <ul class="linkprf-det">
+                            <li class="list">
+                                <p style="margin-top:10px;">Worked at XYZ</p>
+                                <p>June 2017 - January 2018</p>
+                                <p>I have worked on various internal web projects.</p>
+                            </li>
+                            <li class="list">
+                                <p style="margin-top:10px;">Worked at ABC</p>
+                                <p>February 2018- May 2018</p>
+                                <p>I have developed a major portion of front end for their website. Headed a team of 4 developers guided them and prepared a project for company.</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="linkprf-info">
+                        <div class="linkprf-hd">Internships</div>
+                        <ul class="linkprf-det">
+                            <li class="list">
+                                <p style="margin-top:10px;">Intern at XYZ</p>
+                                <p>June 2018 - July 2018</p>
+                                <p>I have worked on various internal web projects.</p>
+                            </li>
+                            <li class="list">
+                                <p style="margin-top:10px;">Intern at ABC</p>
+                                <p>November 2018- December 2018</p>
+                                <p>I have developed a major portion of front end for their website</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="linkprf-info">
+                        <div class="linkprf-hd">Certificate/Diploma</div>
+                        <ul class="linkprf-det">
+                            <li class="list">
+                                <p style="margin-top:10px;">Java Certification By Udemy</p>
+                                <p>Year : 2016</p>
+                            </li>
+                            <li class="list">
+                                <p style="margin-top:10px;">Javascript , SQL Certification By Sololearn</p>
+                                <p>Year : 2017</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="linkprf-info">
+                        <div class="linkprf-hd">Achievements</div>
+                        <ul class="linkprf-det">
+                            <li class="list">
+                                <p style="margin-top:10px;">First Position in B.Tech First Year</p>
+                                <p>Year : 2016-17</p>
+                                <p>Guru Gobind Singh Indraprastha University</p>
+                            </li>
+                            <li class="list">
+                                <p style="margin-top:10px;">First Position in B.Tech Second Year</p>
+                                <p>Year : 2017-18</p>
+                                <p>Guru Gobind Singh Indraprastha University</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="linkprf-info">
+                        <div class="linkprf-hd">Languages</div>
+                        <ul class="linkprf-det">
+                            <li class="list">
+                                <p style="margin-top:10px;">English</p>
+                                <p>Hindi</p>
+                            </li>
+                        </ul>
+                    </div>
+
                 </div>
 
-                <!-- <div class="timeline">
-
-                </div> -->
-
-                <div class="linkprf-info">
-                    <div class="linkprf-hd">Education</div>
-                    <ul class="linkprf-det">
-                        <li class="list">
-                            <p style="margin-top:10px;">B.Tech (pursuing)</p>
-                            <p>Year : 2016-20</p>
-                            <p>Guru Gobind Singh Indraprastha University</p>
-                        </li>
-                        <li class="list">
-                            <p style="margin-top:10px;">Senior Secondary</p>
-                            <p>Year : 2015-16</p>
-                            <p>Arunodaya Public School</p>
-                        </li>
-                        <li class="list" style="margin-bottom:0;">
-                            <p style="margin-top:10px;">High School</p>
-                            <p>Year : 2013-14</p>
-                            <p>Arunodaya Public School</p>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="linkprf-info">
-                    <div class="linkprf-hd">Work Experiance</div>
-                    <ul class="linkprf-det">
-                        <li class="list">
-                            <p style="margin-top:10px;">Worked at XYZ</p>
-                            <p>June 2017 - January 2018</p>
-                            <p>I have worked on various internal web projects.</p>
-                        </li>
-                        <li class="list">
-                            <p style="margin-top:10px;">Worked at ABC</p>
-                            <p>February 2018- May 2018</p>
-                            <p>I have developed a major portion of front end for their website. Headed a team of 4 developers guided them and prepared a project for company.</p>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="linkprf-info">
-                    <div class="linkprf-hd">Internships</div>
-                    <ul class="linkprf-det">
-                        <li class="list">
-                            <p style="margin-top:10px;">Intern at XYZ</p>
-                            <p>June 2018 - July 2018</p>
-                            <p>I have worked on various internal web projects.</p>
-                        </li>
-                        <li class="list">
-                            <p style="margin-top:10px;">Intern at ABC</p>
-                            <p>November 2018- December 2018</p>
-                            <p>I have developed a major portion of front end for their website</p>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="linkprf-info">
-                    <div class="linkprf-hd">Certificate/Diploma</div>
-                    <ul class="linkprf-det">
-                        <li class="list">
-                            <p style="margin-top:10px;">Java Certification By Udemy</p>
-                            <p>Year : 2016</p>
-                        </li>
-                        <li class="list">
-                            <p style="margin-top:10px;">Javascript , SQL Certification By Sololearn</p>
-                            <p>Year : 2017</p>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="linkprf-info">
-                    <div class="linkprf-hd">Achievements</div>
-                    <ul class="linkprf-det">
-                        <li class="list">
-                            <p style="margin-top:10px;">First Position in B.Tech First Year</p>
-                            <p>Year : 2016-17</p>
-                            <p>Guru Gobind Singh Indraprastha University</p>
-                        </li>
-                        <li class="list">
-                            <p style="margin-top:10px;">First Position in B.Tech Second Year</p>
-                            <p>Year : 2017-18</p>
-                            <p>Guru Gobind Singh Indraprastha University</p>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="linkprf-info">
-                    <div class="linkprf-hd">Languages</div>
-                    <ul class="linkprf-det">
-                        <li class="list">
-                            <p style="margin-top:10px;">Programming Languages</p>
-                            <p>C , C++ , Java , Javascript</p>
-                        </li>
-                        <li class="list">
-                            <p style="margin-top:10px;">Database</p>
-                            <p>Oracle , SQL </p>
-                        </li>
-                    </ul>
+                <div class="col-lg-4 timeline">
+                    <img src="lib/images/timeline.png" alt="Timeline">
                 </div>
 
             </div>
