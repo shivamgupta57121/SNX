@@ -924,6 +924,10 @@ button a{
   position: relative;
 }
 
+#nnpp{
+  margin-top: 50px;
+}
+
 .hero-text {
   text-align: center;
   position: absolute;
@@ -999,6 +1003,19 @@ button a{
   width:100%;
   height: 80%;
 }
+
+/* -------------------- */
+/* Networkx Home Page */
+/* -------------------- */
+
+.hnhome{
+  background-image: url(img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+
+
 
 /* -------------------- */
 /* Connectx Page */
