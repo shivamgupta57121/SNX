@@ -135,14 +135,16 @@ header{
    padding: 40px;
 }
 .sign{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),  url("img/backg.png");
-  /* background-repeat: no-repeat;
-  background-size: cover; */
+  background-image: url(img/backl.jpg), linear-gradient(rgba(251, 123, 172, 1.0), rgba(251, 123, 172, 1.0));
+  background-size: contain; 
+  background-repeat:no-repeat;
 }
 
 
 .log{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),  url("img/backg.png");
+  background-image: url(img/backlogin.png), linear-gradient(rgba(254, 236, 58, 1.0), rgba(254, 236, 58, 1.0));
+  background-size: contain; 
+  background-repeat:no-repeat; 
 }
 
 .section-form h3{
@@ -155,6 +157,7 @@ header{
    width: 30%;
    max-width:350px ;
    margin: 0 auto;
+   margin-left: 60%;
    padding: 50px;
    border-color: #bbb;
    border-style: solid;
