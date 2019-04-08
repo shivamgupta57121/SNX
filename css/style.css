@@ -133,7 +133,16 @@ header{
 
 .section-form{
    padding: 40px;
-   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),  url("img/backg.png");
+}
+.sign{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),  url("img/backg.png");
+  /* background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+
+.log{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),  url("img/backg.png");
 }
 
 .section-form h3{
@@ -143,7 +152,8 @@ header{
 }
 
 .contact-form {
-   width: 28%;
+   width: 30%;
+   max-width:350px ;
    margin: 0 auto;
    padding: 50px;
    border-color: #bbb;
