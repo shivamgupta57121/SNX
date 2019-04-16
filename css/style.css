@@ -1033,6 +1033,31 @@ button a{
   background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
 }
 
+#datesld{
+  list-style: none;
+}
+
+.datesl{
+  width: 18%;
+  background: blue;
+  color: white;
+  padding: 5px;
+  margin: 0.5%;
+  display: inline-block;
+}
+
+.datesl:hover{
+background: red;
+}
+
+.datesl p{
+  margin: 0px;
+}
+
+.dt{
+  font-size: 40px;
+}
+
 /* -------------------- */
 /* Connectx Page */
 /* -------------------- */
