@@ -875,11 +875,17 @@ button a{
   box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
 }
 
+.sidenav .sideNet{
+  color: white;
+}
 
-/* profile for linkedin*/
+
+/* -------------------- */
+/* Networkx Profile Page */
+/* -------------------- */
 
 .home-networkprf{
-  background-color: #0000e6;
+  background-color: #1a75ff;
   overflow: hidden;
 }
 
@@ -920,9 +926,10 @@ button a{
 
 .section-networkprf{
   /* background-color: #d1b3ff; */
-  background-image: url("img/bg.jpg");
+  /* background-image: url("img/bg.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
+  background-color: #e6f5ff;
 }
 
 
@@ -955,8 +962,8 @@ button a{
 }
 
 .linkprf-info{
-  margin:50px 10% 0 10%;
-  width: 80%;
+  margin:50px 5% 0 5%;
+  width: 90%;
   background-color: white;
   border: 1px solid white;
   border-radius: 5px;
@@ -1000,7 +1007,7 @@ button a{
   -o-border-radius: 5px;
   /* background-image: linear-gradient(to right, #0ba360, #3cba92, #30dd8a, #2bb673);*/
   box-shadow: 0 4px 15px 0 rgba(240, 230, 255, 0.75); 
-  background-color: #cce6ff;
+  background-color: #b3e0ff;
 }
 
 .linkprf-det p{
@@ -1009,7 +1016,9 @@ button a{
 
 .empty{
   height: 500px;
-  width: 22%;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
   background-color: white;
   margin-top:25px;
   border: 1px solid #0000e6;
@@ -1020,6 +1029,11 @@ button a{
   -o-border-radius: 5px;
 }
 
+
+#icNet{
+  height: 30px;
+  width: 30px;
+}
 
 /* .timeline{
   padding-top: 50px;
@@ -1035,10 +1049,11 @@ button a{
 /* -------------------- */
 
 .hnhome{
-  background-image: url(img/bg.jpg);
+  /* background-image: url(img/bg.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
   height: 700px;
+  background: #e6f5ff;
 }
 
 .bbb1{
@@ -1052,7 +1067,7 @@ button a{
 
 .datesl{
   width: 18%;
-  background: blue;
+  background:#003399;
   color: white;
   padding: 5px;
   margin: 0.5%;
@@ -1060,7 +1075,7 @@ button a{
 }
 
 .datesl:hover{
-background: red;
+background: blue;
 }
 
 .datesl p{
