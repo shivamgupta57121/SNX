@@ -1007,6 +1007,19 @@ button a{
   padding-left: 40px; 
 }
 
+.empty{
+  height: 500px;
+  width: 22%;
+  background-color: white;
+  margin-top:25px;
+  border: 1px solid #0000e6;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
 
 /* .timeline{
   padding-top: 50px;
