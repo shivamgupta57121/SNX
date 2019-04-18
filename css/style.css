@@ -962,8 +962,8 @@ button a{
 }
 
 .linkprf-info{
-  margin:50px 5% 0 5%;
-  width: 90%;
+  margin:50px 0 0 0;
+  width: 100%;
   background-color: white;
   border: 1px solid white;
   border-radius: 5px;
@@ -1019,7 +1019,7 @@ button a{
   margin-left: 5%;
   margin-right: 5%;
   width: 90%;
-  background-color: white;
+  background-color: #e6f5ff;
   margin-top:25px;
   border: 1px solid #0000e6;
   border-radius: 5px;
