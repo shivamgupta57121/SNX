@@ -1015,7 +1015,7 @@ button a{
 }
 
 .empty{
-  height: 500px;
+  /* height: 500px; */
   margin-left: 5%;
   margin-right: 5%;
   width: 90%;
@@ -1029,6 +1029,10 @@ button a{
   -o-border-radius: 5px;
 }
 
+.empty img{
+  width: 100%;
+  padding: 10px;
+}
 
 #icNet{
   height: 30px;
